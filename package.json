@@ -1,5 +1,5 @@
 {
-  "name": "Kahoot-Spam",
+  "name": "kahoot-spam",
   "version": "1.0.0",
   "description": "A kahoot spammer for kahoot.it",
   "main": "index.js",
@@ -28,4 +28,5 @@
   "dependencies": {
     "kahoot.js-updated": "^2.0.11"
   }
+  
 }
