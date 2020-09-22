@@ -16,8 +16,12 @@ var errnum = 0;
 class KahootSpam {
     static async spam(pin, name, amout){
         if(!pin) throw new TypeError('Please Give Me A Pin')
+        if(!Number(pin)) throw new TypeError('Please Use A Number For The Pin')
         if(!name) throw new TypeError('Please Give Me A Name')
+        if(Number(name)) throw new TypeError('Please Use A String For The Name')
         if(!amout) throw new TypeError('Please Give Me An Amout')
+        if(!Number(amout)) throw new TypeError('Please Use A Number For The Amout')
+        
         console.log('Ok Joining...')
         try{
             for(i = 0; i < amout; i++){
@@ -39,9 +43,13 @@ class KahootSpam {
 
     static async spamWithAnswers(pin, name, amout, slee){
         if(!pin) throw new TypeError('Please Give Me A Pin')
+        if(!Number(pin)) throw new TypeError('Please Use A Number For The Pin')
         if(!name) throw new TypeError('Please Give Me A Name')
+        if(Number(name)) throw new TypeError('Please Use A String For The Name')
         if(!amout) throw new TypeError('Please Give Me An Amout')
-        if(!slee) throw new TypeError('Please Give Me "true" or "false" if you want to sleep or not')
+        if(!Number(amout)) throw new TypeError('Please Use A Number For The Amout')
+        if(!slee) throw new TypeError('Please Give Me How Long To Sleep In Mili Seconds')
+        if(!Number(slee)) throw new TypeError('Please Use A Number For The Sleep Time')
         console.log('Ok Joining...')
         try{
             for(i = 0; i < amout; i++){
@@ -73,6 +81,7 @@ class KahootSpam {
         }
 
     }
+    
     
 
     
