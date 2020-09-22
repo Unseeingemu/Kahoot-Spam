@@ -18,6 +18,7 @@ class KahootSpam {
         if(!pin) throw new TypeError('Please Give Me A Pin')
         if(!name) throw new TypeError('Please Give Me A Name')
         if(!amout) throw new TypeError('Please Give Me An Amout')
+        console.log('Ok Joining...')
         try{
             for(i = 0; i < amout; i++){
 
@@ -32,6 +33,7 @@ class KahootSpam {
             errnum = errnum + 1
             throw new TypeError(`Um Something Went Wrong With This Bot\n err num ${errnum}`)
         }
+        console.log(`Joined`)
     }
 
     static async spamWithAnswers(pin, name, amout, slee){
@@ -39,6 +41,7 @@ class KahootSpam {
         if(!name) throw new TypeError('Please Give Me A Name')
         if(!amout) throw new TypeError('Please Give Me An Amout')
         if(!slee) throw new TypeError('Please Give Me "true" or "false" if you want to sleep or not')
+        console.log('Ok Joining...')
         try{
             for(i = 0; i < amout; i++){
 
@@ -67,6 +70,7 @@ class KahootSpam {
             errnum = errnum + 1
             throw new TypeError (`Um Something Went Wrong With This Bot\n err num ${errnum}`)
         }
+        console.log(`Joined`)
     }
 
     
