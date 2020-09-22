@@ -24,7 +24,7 @@ spamWithAnswers(pin, name, amout, sleep)
 //With sleep
 const KahootSpam = require('kahoot-spam')
 let api = KahootSpam
-spamWithAnswers(123456, "Name", 10, true)
+api.spamWithAnswers(123456, "Name", 10, true)
 ```
 > *This WIll Spam The Kahoot 123456 10 Times With The Name 'Name' With Answering The Questions With Sleep*
 ##
@@ -32,7 +32,7 @@ spamWithAnswers(123456, "Name", 10, true)
 //Without sleep
 const KahootSpam = require('kahoot-spam')
 let api = KahootSpam
-spamWithAnswers(123456, "Name", 10, false)
+api.spamWithAnswers(123456, "Name", 10, false)
 ```
 > *This WIll Spam The Kahoot 123456 10 Times With The Name 'Name' With Answering The Questions Without Sleep*
 ---
