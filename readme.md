@@ -1,5 +1,5 @@
 # Kahoot-Spam
-A npm package for spamming kahoots 😏 
+An npm package for spamming kahoots 😏 
 
 ---
 ### Spam
