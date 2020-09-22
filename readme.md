@@ -8,8 +8,8 @@ spam(pin, name, amout)
 ```
 ##### Example
 ```js
-const Kahoot-Spam = require('Kahoot-Spam')
-Kahoot-Spam = api
+const KahootSpam = require('kahoot-spam')
+let api = KahootSpam
 api.spam(123456, 'Name', 10)
 ```
 > *This WIll Spam The Kahoot 123456 10 Times With The Name 'Name'*
@@ -22,16 +22,16 @@ spamWithAnswers(pin, name, amout, sleep)
 ##### Example
 ```js
 //With sleep
-const Kahoot-Spam = require('Kahoot-Spam')
-Kahoot-Spam = api
+const KahootSpam = require('kahoot-spam')
+let api = KahootSpam
 spamWithAnswers(123456, "Name", 10, true)
 ```
 > *This WIll Spam The Kahoot 123456 10 Times With The Name 'Name' With Answering The Questions With Sleep*
 ##
 ```js
 //Without sleep
-const Kahoot-Spam = require('Kahoot-Spam')
-Kahoot-Spam = api
+const KahootSpam = require('kahoot-spam')
+let api = KahootSpam
 spamWithAnswers(123456, "Name", 10, false)
 ```
 > *This WIll Spam The Kahoot 123456 10 Times With The Name 'Name' With Answering The Questions Without Sleep*

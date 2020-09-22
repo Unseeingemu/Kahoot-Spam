@@ -29,11 +29,12 @@ class KahootSpam {
                     console.log(`Bot ${name}${id} has successfully joined game ${pin}`)
                 })
             }
+
         } catch (err){
             errnum = errnum + 1
             throw new TypeError(`Um Something Went Wrong With This Bot\n err num ${errnum}`)
         }
-        //console.log(`Joined`)
+
     }
 
     static async spamWithAnswers(pin, name, amout, slee){
@@ -70,8 +71,9 @@ class KahootSpam {
             errnum = errnum + 1
             throw new TypeError (`Um Something Went Wrong With This Bot\n err num ${errnum}`)
         }
-        //console.log(`Joined`)
+
     }
+    
 
     
 
