@@ -1,3 +1,4 @@
+[![NPM](https://nodei.co/npm/kahoot-spam.png)](https://www.npmjs.com/package/kahoot-spam/)
 # Kahoot-Spam
 An npm package for spamming kahoots 😏 
 
